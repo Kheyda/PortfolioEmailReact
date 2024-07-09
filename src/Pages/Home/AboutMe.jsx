@@ -11,6 +11,7 @@ export default function AboutMe() {
           <p><strong>Birthday:</strong> 28 Dec</p>
           <p><strong>Phone:</strong> 0738697648</p>
           <p><strong>Email:</strong> khanyamelapi@gmail.com</p>
+          <p><strong>Qualification level:</strong> NQF Level 7</p>
           <p><strong>Address:</strong> 389E Nassau road, Wynberg, Cape Town</p>
         </div>
         <p className="about--section--description">
