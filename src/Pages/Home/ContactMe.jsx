@@ -65,6 +65,7 @@ export default function ContactMe() {
               id="first-name"
               pattern="[A-Za-z]+"
               title="Please enter only alphabets"
+              placeholder="Carl"
               required
             />
           </label>
@@ -77,6 +78,7 @@ export default function ContactMe() {
               id="last-name"
               pattern="[A-Za-z]+"
               title="Please enter only alphabets"
+              placeholder="Max"
               required
             />
           </label>
@@ -87,6 +89,7 @@ export default function ContactMe() {
               className="contact--input text-md"
               name="email"
               id="email"
+              placeholder="me@gmail.com"
               required
             />
           </label>
@@ -99,13 +102,14 @@ export default function ContactMe() {
               id="phone-number"
               pattern="[0-9]{10}"
               title="Please enter exactly 10 digits"
+              placeholder="01234567890"
               onChange={handlePhoneNumberChange}
               required
             />
           </label>
         </div>
         <label htmlFor="choose-topic" className="contact--label">
-          <span className="text-md">Choose a topic</span>
+          <span className="text-md">Choose a subject</span>
           <select
             id="choose-topic"
             className="contact--input text-md"
@@ -147,10 +151,7 @@ export default function ContactMe() {
             required
           />
         </label>
-        <label htmlFor="checkbox" className="checkbox--label">
-          <input type="checkbox" required name="checkbox" id="checkbox" />
-          <span className="text-sm">I accept the terms</span>
-        </label>
+      
         <div>
           <button className="btn btn-primary contact--form--btn" type="submit">Submit</button>
         </div>

@@ -8,7 +8,7 @@ function Footer() {
         <div>
           <img src="./img/mylg.jpg" alt="Logoipsum" />
         </div>
-        <div className="footer--items">
+        {/*<div className="footer--items">
           <ul>
             <li>
               <Link
@@ -30,10 +30,10 @@ function Footer() {
                 smooth={true}
                 offset={-70}
                 duration={500}
-                to="MyPortfolio"
+                to="AboutMe"
                 className="text-md"
               >
-           My Skills
+                About Me
               </Link>
             </li>
             <li>
@@ -43,10 +43,10 @@ function Footer() {
                 smooth={true}
                 offset={-70}
                 duration={500}
-                to="AboutMe"
+                to="MyPortfolio"
                 className="text-md"
               >
-                About Me
+           My Skills
               </Link>
             </li>
             <li>
@@ -76,7 +76,7 @@ function Footer() {
               </Link>
             </li>
           </ul>
-        </div>
+        </div>*/}
         <div className="footer--social--icon">
           <ul>
             <li>

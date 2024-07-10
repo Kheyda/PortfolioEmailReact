@@ -2,17 +2,17 @@
     "skills": [
   {
     "id": "1",
-    "src": "./img/product-chain-1.png",
+    "src": "./img/fron2.jpg",
     "title": "Front-End",
     "description": "With a keen eye for design and proficiency in modern front-end technologies like HTML, CSS, and JavaScript, I craft engaging and responsive user interfaces that elevate user experiences.",
     "images": [
       "./img/int.png",
-      "./img/fr.jpg"
+      "./img/kk.jpg"
     ]
   },
   {
     "id": "2",
-    "src": "./img/tag-1.png",
+    "src": "./img/blm.jpg",
     "title": "Back-End",
     "description": "As a back-end developer, I architect and implement robust server-side solutions using languages like Python and frameworks like Django, ensuring seamless functionality and performance for web applications.",
     "images": [
@@ -22,7 +22,7 @@
   },
   {
     "id": "3",
-    "src": "./img/feather-pen-2.png",
+    "src": "./img/da.jpg",
     "title": "Data Analysis",
     "description": "With expertise in data analysis tools like Python's Pandas and visualization libraries like Matplotlib, I uncover valuable insights and patterns from complex datasets, empowering informed decision-making and strategic planning.",
     "images": [
@@ -32,7 +32,7 @@
   },
   {
     "id": "4",
-    "src": "./img/feather-pen-1.png",
+    "src": "./img/UIUX.png",
     "title": "UI & UX Design",
     "description": "Combining creativity with a deep understanding of user behavior, I design intuitive and visually appealing interfaces that prioritize user experience, leveraging tools like Adobe XD and Figma to bring concepts to life.",
     "images": [

@@ -101,7 +101,7 @@ function Navbar() {
           to="testimonial"
           className="navbar--content"
         >
-          Testimonials
+          Reviews
         </Link>
       </li>
     </ul>
