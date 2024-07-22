@@ -811,6 +811,72 @@ input[type="checkbox"] {
   line-height: 28px;
 }
 
+/* Projects*/
+.skills--section--container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.skills--section--card {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  flex: 1 1 30%;
+  padding: 20px;
+}
+
+.skills--section--img img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.skills--section--card--content {
+  padding: 10px 0;
+}
+
+.skills--section--title {
+  font-size: 1.5em;
+  margin: 10px 0;
+}
+
+.skills--section--description {
+  font-size: 1em;
+  color: #666;
+}
+
+.skills--section--images img {
+  max-width: 100px;
+  margin: 5px;
+  border-radius: 8px;
+}
+
+.view-projects--heading {
+  font-size: 2em;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.clickable-images--grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(45%, 1fr));
+  gap: 100px;
+  margin-top: 20px;
+}
+
+.clickable-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  transition: transform 0.3s;
+}
+
+.clickable-image:hover {
+  transform: scale(1.05);
+}
+
+
 /* Responsive Screens */
 @media only screen and (max-width: 1800px) {
   .hero--section--title {
