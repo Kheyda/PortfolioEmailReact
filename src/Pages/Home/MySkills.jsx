@@ -1,11 +1,23 @@
 import data from "../../data/index.json";
+import React, { useState } from "react";
 
 export default function MySkills() {
+  const [modalIsOpen, setModalIsOpen] = useState(false);
+
+  const openModal = () => {
+    setModalIsOpen(true);
+  };
+
+  const closeModal = () => {
+    setModalIsOpen(false);
+  };
+
   const clickableImages = [
     { src: "./img/makasana.png", link: "https://makasana.vercel.app" },
     { src: "./img/tech.png", link: "https://splendorous-wisp-9628e5.netlify.app/" },
     { src: "./img/land.png", link: "https://candid-marigold-9c7448.netlify.app" },
     { src: "./img/sneak.png", link: "https://deluxe-khapse-e89819.netlify.app" },
+    { src: "./img/bankw.png", link: "" },
     { src: "./img/chat.png", link: "" },
   ];
 
@@ -35,11 +47,35 @@ export default function MySkills() {
       <h2 className="view-projects--heading">View My Projects</h2>
       <div className="clickable-images--grid">
         {clickableImages.map((image, index) => (
-          <a key={index} href={image.link} target="_blank" rel="noopener noreferrer">
-            <img src={image.src} alt={`Clickable ${index + 1}`} className="clickable-image" />
-          </a>
+          index === clickableImages.length - 1 ? (
+            <img
+              key={index}
+              src={image.src}
+              alt={`Clickable ${index + 1}`}
+              className="clickable-image"
+              onClick={openModal}
+            />
+          ) : (
+            <a key={index} href={image.link} target="_blank" rel="noopener noreferrer">
+              <img src={image.src} alt={`Clickable ${index + 1}`} className="clickable-image" />
+            </a>
+          )
         ))}
       </div>
+
+      {/* Modal */}
+      {modalIsOpen && (
+        <div className="modal" onClick={closeModal}>
+          <div className="modal-content" onClick={(e) => e.stopPropagation()}>
+            <span className="close" onClick={closeModal}>&times;</span>
+            <video controls>
+              <source src="/Video/vid.webm" type="video/webm" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </div>
+      )}
     </section>
   );
 }
+

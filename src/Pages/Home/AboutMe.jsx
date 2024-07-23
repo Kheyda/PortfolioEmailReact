@@ -14,6 +14,21 @@ export default function AboutMe() {
           <p><strong>Qualification level:</strong> NQF Level 7</p>
           <p><strong>Address:</strong> 389E Nassau road, Wynberg, Cape Town</p>
         </div>
+        <div className="about--section--education">
+          <h2 className="about--section--subheading">Education</h2>
+          <ul>
+            <li><strong>Breidbach Senior Secondary School:</strong> National Diploma (2013 - 2016)</li>
+            <li><strong>Walter Sisulu University:</strong> Diploma in ICT in Application Development (2019 - 2022)</li>
+            <li><strong>Cape Peninsula University of Technology:</strong> Advanced Diploma in ICT in Application Development (2023)</li>
+          </ul>
+        </div>
+        <div className="about--section--experience">
+          <h2 className="about--section--subheading">Experience</h2>
+          <ul>
+            <li><strong>Luthango Holdings Pty Ltd:</strong> Software Developer</li>
+            <li><strong>Capaciti UVU Africa:</strong> Full Stack Developer</li>
+          </ul>
+        </div>
         <p className="about--section--description">
           Hello, and welcome to my portfolio! I am a driven professional with a foundation in ICT from Walter Sisulu University, supplemented by two Python certificates and invaluable experience gained at Samsung Innovation Campus. After graduating with an Advanced Diploma in ICT in Application Development, I embarked on a fulfilling journey in the software development industry. Currently, I'm pursuing my dreams and advancing my career at Capaciti UVU Africa, where I specialize in crafting innovative software solutions.
           <br /><br />
